@@ -16,7 +16,7 @@ concurrency:
 
 env:
   CARGO_TERM_COLOR: always
-  DEFAULT_CRATE: rustdoc_pages
+  DEFAULT_CRATE: main_crate
 
 jobs:
   rustdoc:

@@ -1,0 +1,8 @@
+[package]
+name = "main-crate"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+another-crate = { path = "../another-crate" }
+thiserror = "2.0.16"

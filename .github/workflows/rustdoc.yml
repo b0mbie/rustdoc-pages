@@ -30,7 +30,7 @@ jobs:
       - name: Generate documentation
         run: cargo doc --verbose --no-deps
       - name: Create redirect for `index.html`
-        run: echo '<meta http-equiv="refresh" content="0;url=rse_plugin/index.html">' > target/doc/index.html
+        run: echo '<meta http-equiv="refresh" content="0;url=rustdoc_pages/index.html">' > target/doc/index.html
       - name: Remove Rustdoc lock file
         run: rm target/doc/.lock
       - name: Upload artifact
